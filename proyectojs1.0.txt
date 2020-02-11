@@ -1,0 +1,14 @@
+//Encabezado
+var txt = "Bienvenidos a SEGUROS TK-U";
+document.write("<p>" + txt.italics() + "   </p>");
+
+//PETICION DE NOMBRES Y APELLIDOS
+var nombreCompleto = prompt("Por favor ingrese el nombre completo:", "Nombres y apellidos");
+console.log("Nombres y apellidos:" + nombreCompleto);
+document.write("Gracias por preferirnos  " + nombreCompleto)
+
+//FECHA DE NACIMIENTO 
+var diaNacimiento = prompt("Ingrese el día de nacimiento", "Ejemplo: Si nació el 22 de enero, solamente ingresar 22");
+document.write("<br> Fecha de nacimiento: " + diaNacimiento);
+console.log(diaNacimiento);
+document.write()
