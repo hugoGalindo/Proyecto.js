@@ -8,7 +8,7 @@ Carné 20000261
 Velásquez Galindo Hugo Rovidio
 
 Carné 00000000
-Milton
+Milton Estuardo Crisóstomo Escalante
 
 
 Primer commit
