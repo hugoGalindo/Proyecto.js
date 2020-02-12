@@ -10,7 +10,3 @@ Velásquez Galindo Hugo Rovidio
 Carné 00000000
 Milton Estuardo Crisóstomo Escalante
 
-
-Primer commit
-proyectojs1.0.txt
-                 son la primeras lineas de código que se han realizado para llevar a cabo el cotizador de seguros.
