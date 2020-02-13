@@ -1,12 +1,11 @@
 # Proyecto.js
 
-Este proyecto está pensado para ayudar en las tareas de cotizaciones para una empresa de seguros
+Este proyecto está pensado para realizar cotizaciones para la empresa de seguros TK-U
 
 los colaboradores son:
 
-Carné 20000261
-Velásquez Galindo Hugo Rovidio
-
-Carné 00000000
+Carné 20006294
 Milton Estuardo Crisóstomo Escalante
 
+Carné 20000261
+Velásquez Galindo Hugo Rovidio
