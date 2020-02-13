@@ -2,7 +2,7 @@
 
 Este proyecto está pensado para realizar cotizaciones para la empresa de seguros TK-U
 
-los colaboradores son:
+Colaboradores:
 
 Carné 20006294
 Milton Estuardo Crisóstomo Escalante
