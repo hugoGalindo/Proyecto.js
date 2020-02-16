@@ -5,11 +5,11 @@
 ### Colaboradores:
 
 
-Carné 20006294
-Milton Estuardo Crisóstomo Escalante
+***Carné 20006294
+Milton Estuardo Crisóstomo Escalante***
 
-Carné 20000261
-Velásquez Galindo Hugo Rovidio
+***Carné 20000261
+Velásquez Galindo Hugo Rovidio***
 
 
 ## Seguros TK-U
