@@ -45,7 +45,7 @@ if (hijos == "si") {
     document.write("<br> Cantidad de hijos menores de 21 años: " + cantidadHijos)
 }
 //desglose de cargos
-var desg = "A continuación se le presenta el desglose de los cargos";
+var desg = "A continuación presentan los detalles de los servicios prestados:";
 document.write("<p>" + desg.bold() + "   </p>");
 
 const precioBase = 250;
@@ -60,6 +60,8 @@ comision = precioBase * 0.30;
 
 
 recargos = 0;
+recargosedad = 0;
+recargosconyuge = 0;
 // mayor de 18
 if (anioNacimiento > 2002) {
     document.write("Lo sentimos, aun no tiene la edad suficiente para ser asegurado")
@@ -67,42 +69,71 @@ if (anioNacimiento > 2002) {
 }
 //menor de 21
 if (anioNacimiento > 1999 && anioNacimiento <= 2002) {
-    document.write("No se le aplicara recargos por edad")
-
-
+    document.write("No se le aplicara recargos por edad" + "-----Q.00.00")
 }
 //entre 21 y 25
 if (anioNacimiento > 1995 && anioNacimiento <= 1999) {
-    document.write("Se le aplicara el 1%")
-    recargos = precioBase * 0.1
+
+    recargosedad = precioBase * 0.01
+    document.write("Recargos por edad" + "------Q." + recargosedad)
 
 }
 //entre 25 y 30
 if (anioNacimiento > 1990 && anioNacimiento <= 1995) {
-    document.write("Se le aplicara el 2%")
-    recargos = precioBase * 0.2
+
+
+    recargosedad = precioBase * 0.02
+    document.write("Recargos por edad" + "------Q." + recargosedad)
+
 }
 //entre 30 y 40
 if (anioNacimiento > 1980 && anioNacimiento <= 1990) {
-    document.write("Se le aplicara el 5%")
-    recargos = precioBase * 0.5
+
+    recargosedad = precioBase * 0.05
+    document.write("Recargos por edad:" + "-----Q." + recargosedad)
 }
 //entre 40 y 50
 if (anioNacimiento > 1970 && anioNacimiento <= 1980) {
-    document.write("Se le aplicara el 8%")
-    recargos = precioBase * 0.8
+
+    recargosedad = precioBase * 0.08
+    document.write("Recargos por edad" + "-----Q." + recargosedad)
 }
 //entre 50 y 65
 if (anioNacimiento > 1955 && anioNacimiento <= 1970) {
-    document.write("Se le aplicara el 12%")
-    recargos = precioBase * 0.12
+
+    recargosedad = precioBase * 0.12
+    document.write("Recargos por edad:" + "-----Q." + recargosedad)
 }
 // mayor de 65
 if (anioNacimiento <= 1955) {
     document.write("Lo sentimos,no lo podemos asegurar")
+}
+//Recargos por cónyuge: 
+//menor de 30 
+if (edadConyuge < 30) {
+    recargosconyuge = precioBase * 0.01
 
+    document.write("<br> Recargos por conyuge:" + "-----Q." + recargosconyuge)
+}
+if (edadConyuge >= 30 && edadConyuge < 40) {
+    recargosconyuge = precioBase * 0.02
+    document.write("<br> Recargos por conyuge:" + "-----Q." + recargosconyuge)
+}
+if (edadConyuge >= 40 && edadConyuge < 50) {
+    recargosconyuge = precioBase * 0.03
+    document.write("<br> Recargos por conyuge:" + "-----Q." + recargosconyuge)
+}
+if (edadConyuge >= 50 && edadConyuge < 70) {
+    recargosconyuge = precioBase * 0.05
+    document.write("<br> Recargos por conyuge:" + "-----Q." + recargosconyuge)
+}
+//recargos por hijos
+if (cantidadHijos < 21) {
+    recargos = precioBase * 0.01 * cantidadHijos
+
+    document.write("<br> Recargos por hijos:" + "-----Q." + recargos)
 }
 
 
-totalPagar = precioBase + comision + recargos;
-document.write(totalPagar);
+totalPagar = precioBase + comision + recargos + recargosconyuge + recargosedad;
+document.write("<br> Total a pagar:" + totalPagar);
