@@ -32,7 +32,7 @@ var conyuge
 conyuge = prompt("¿Tiene cónyuge?", " SI/NO");
 document.write("<br> ¿Tiene conyuge?: " + conyuge)
 
-if (conyuge == "si") {
+if (conyuge === "si") {
     var edadConyuge = prompt("¿Cuál es la edad de su conyuge?");
 }
 
@@ -71,7 +71,7 @@ if (anioNacimiento > 2002) {
 if (anioNacimiento > 1999 && anioNacimiento <= 2002) {
     document.write("No se le aplicara recargos por edad" + "-----Q.00.00")
 }
-//entre 21 y 25
+///entre 21 y 25//
 if (anioNacimiento > 1995 && anioNacimiento <= 1999) {
 
     recargosedad = precioBase * 0.01
