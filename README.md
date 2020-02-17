@@ -22,3 +22,14 @@ si puede o no, ser asegurado.
 Basado en sus respuestas tambien calculará los costos.
 
 ###### somos simples, somos rápidos; somos seguros TK-U
+
+#### se trabajaron puntos extra 
+
+se mejoró la visualizacion con css agregándole color a las letras,
+modificando el tamaño y se le agregó imagen de fondo.
+
+permite que se pueda imprimir la cotización en una hoja tamaño carta.
+
+
+
+
